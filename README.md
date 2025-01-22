@@ -3,8 +3,6 @@
 A simple chess game implemented in Python using the Pygame library.
 It features a basic AI that calculates the optimal move by peeking DEPTH moves ahead. The AI assesses positions and scores only.
 
-![Untitled video - Made with Clipchamp](https://github.com/AdarshKanungo/chess/assets/98457054/bfdea7e5-502b-4852-a2c9-115ea32e45da)
-
 ## Introduction
 
 This is a basic implementation of a chess game with a graphical user interface. The game allows two players to make moves on a standard chessboard. Additionally, there is an AI opponent that uses negamax algorithm, alpha beta pruining for move selection.
@@ -39,29 +37,9 @@ This is a basic implementation of a chess game with a graphical user interface. 
 
 In chess, the en passant rule allows a pawn to capture an opponent's pawn that has moved two squares forward from its starting position. The capturing pawn moves to the square immediately beyond the captured pawn. Here's how it works:
 
-1. **Initial Position:**:
-
-   <img src="https://github.com/AdarshKanungo/chess/assets/98457054/1b92957b-1126-4771-8ffb-e3fe7a77b4ca" alt="Chessboard" width="400"/>
-
-2. **Opponent's Move:**
-
-   <img src="https://github.com/AdarshKanungo/chess/assets/98457054/bba26e9f-86b2-421b-99b0-a0e7c73a49d9" alt="Chessboard" width="400"/>
-
-3. **En Passant Capture:**
-
-    <img src="https://github.com/AdarshKanungo/chess/assets/98457054/d77b5e0c-cd11-41e2-86d1-687267586c63" alt="Chessboard" width="400"/>
-
 ## Pawn Promotion:
 
 In chess, pawn promotion occurs when a pawn reaches the eighth rank. The pawn can be promoted to any other chess piece (except a king). Here's how it works:
-
-1. **Reach the Eighth Rank**:
-    
-   <img src="https://github.com/AdarshKanungo/chess/assets/98457054/9d33967c-6d19-478c-bb23-8737e4325510" alt="Chessboard" width="400"/>
-
-2. **Select the Promotion Piece**:
-
-   <img src="https://github.com/AdarshKanungo/chess/assets/98457054/42fc5e0e-f782-4d55-a454-37c13dd39ffa" alt="Chessboard" width="400"/>
 
 ## How to Play
 
